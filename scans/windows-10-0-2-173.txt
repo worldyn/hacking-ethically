@@ -1,0 +1,21 @@
+Nmap scan report for 10.0.2.173
+Host is up (0.038s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+8009/tcp open  ajp13
+986/tcp  open  wsmans
+8009/tcp  open  ajp13
+8282/tcp  open  libelle
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+
+

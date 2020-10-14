@@ -1,0 +1,62 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-16 05:44 EDT
+Nmap scan report for 10.0.2.20
+Host is up (0.042s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.31
+Host is up (0.038s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.80
+Host is up (0.046s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.82
+Host is up (0.058s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.84
+Host is up (0.058s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.88
+Host is up (0.058s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.0.2.105
+Host is up (0.072s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.173
+Host is up (0.036s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.0.2.205
+Host is up (0.071s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap scan report for 10.0.2.232
+Host is up (0.071s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 256 IP addresses (10 hosts up) scanned in 3.54 seconds

